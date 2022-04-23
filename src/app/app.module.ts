@@ -16,6 +16,7 @@ import { GuanacasteComponent } from './guanacaste/guanacaste.component';
 import { PuntarenasComponent } from './puntarenas/puntarenas.component';
 import { RouterModule } from '@angular/router';
 import { NotFoundError } from 'rxjs';
+import { HeaderComponent } from './header/header.component';
 
 
 @NgModule({
@@ -33,6 +34,7 @@ import { NotFoundError } from 'rxjs';
     LimonComponent,
     GuanacasteComponent,
     PuntarenasComponent,
+    HeaderComponent,
 
  
  
@@ -40,14 +42,7 @@ import { NotFoundError } from 'rxjs';
   imports: [
     BrowserModule, 
     AppRoutingModule,
-    RouterModule.forRoot([
-
-
-      {path:"home",component:HomeComponent},
-      {path:"heredia",component:HerediaComponent},
-
-
-    ])
+    RouterModule.forRoot([])
 
 
   ],
