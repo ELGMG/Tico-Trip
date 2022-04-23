@@ -8,8 +8,8 @@ const routes: Routes = [
  
 {path:'Login', component:LoginComponent},
 {path:'Registrarse', component:RegistrarseComponent},
-
 {path:'Heredia', component:HerediaComponent},
+
 
 
 ];

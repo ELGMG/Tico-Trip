@@ -19,3 +19,13 @@ h6{
 label{
     color: #fff;
 }
+
+
+.fondo{
+
+    background-image: url(../../assets/Lugar1/arena.jpg);
+    width: 100%;
+    height: 110vh;
+    background-size: cover;
+    background-position: center;
+}
