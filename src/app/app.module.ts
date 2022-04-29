@@ -17,6 +17,7 @@ import { PuntarenasComponent } from './puntarenas/puntarenas.component';
 import { RouterModule } from '@angular/router';
 import { NotFoundError } from 'rxjs';
 import { HeaderComponent } from './header/header.component';
+import { Header2Component } from './header2/header2.component';
 
 
 @NgModule({
@@ -35,6 +36,7 @@ import { HeaderComponent } from './header/header.component';
     GuanacasteComponent,
     PuntarenasComponent,
     HeaderComponent,
+    Header2Component,
 
  
  
