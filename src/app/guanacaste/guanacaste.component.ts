@@ -1,28 +1,75 @@
 import { Component, OnInit } from '@angular/core';
+import { from, Observable } from 'rxjs';
+import { DatosService } from '../services/datos.service';
+import {Datosmodels } from '../models/datosmodels';
 
 console.log('entra');
-
-
-
 @Component({
   selector: 'app-guanacaste',
   templateUrl: './guanacaste.component.html',
   styleUrls: ['./guanacaste.component.css']
 })
 export class GuanacasteComponent implements OnInit {
-
-
   myimage: string = "assets/provincias/guanacaste.png";
-
   ClimaData: any;
-  constructor() { }
+ 
+  listModels =  Datosmodels;
+  Seleccionado : any;
+ 
+ 
+  constructor(private  _datosService: DatosService){}
+
 
   ngOnInit(): void {
-    this.getClimaData();
-
-    console.log(this.ClimaData)
-
+ 
+    var oo = " ., Contacto:, Descripcion:, Nombre:, Precio:, Ubicacion: "
+    let cuadro = document.getElementById("cuadro")
+    var categorias =  oo.replace( /,/gi  , "<hr>");
+    cuadro!.innerHTML = categorias;
+  
   }
+ 
+
+  getDatos(){
+   this._datosService.getDatos().subscribe( data => {
+    console.log(data);
+    this.listModels = data;
+
+   }) 
+  }
+ 
+  seleccionarDato1( dato : string){
+    this._datosService.seleccionarDato(dato).subscribe(data =>{
+    this.listModels = data;
+     console.log( this.listModels)
+     let resultado = document.getElementById("resultado")
+     var   aa = Object.values(this.listModels )
+     var bb =  aa.toString().replace( /,/gi  , "<hr >");
+    resultado!.innerHTML = bb;
+     console.log(bb) 
+     console.log(dato)     
+    this.imagen(dato)
+
+    })
+  }
+ 
+ imagen(dato : string){
+  if (dato == "626caa3d98620e391b20029d") {
+  let x=document.getElementById('cambiar');
+  x!.innerHTML = "<img src='../../assets/images/limon.png'   >";
+
+  } else  if (dato == "626caac83f28320622b67e69") {
+    let x=document.getElementById('cambiar');
+    x!.innerHTML = "<img src='../../assets/images/gua.jpg '  >";
+  }
+
+ }
+ 
+
+
+ 
+
+
 
   getClimaData() {
 

@@ -18,7 +18,7 @@ import { RouterModule } from '@angular/router';
 import { NotFoundError } from 'rxjs';
 import { HeaderComponent } from './header/header.component';
 import { Header2Component } from './header2/header2.component';
-
+import { HttpClientModule } from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -44,6 +44,7 @@ import { Header2Component } from './header2/header2.component';
   imports: [
     BrowserModule, 
     AppRoutingModule,
+    HttpClientModule,
     RouterModule.forRoot([])
 
 
