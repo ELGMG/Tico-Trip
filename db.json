@@ -1,0 +1,42 @@
+{
+  "registroUsuarios": [
+    {
+      "nombre": "andrey",
+      "apellido": "mora",
+      "correo": "andrey@mora.com",
+      "contrasena": "12345678",
+      "id": 1
+    },
+    {
+      "nombre": "adrian",
+      "apellido": "arroyo",
+      "correo": "adrian@ulacit.com",
+      "contrasena": "123456789",
+      "id": 2
+    },
+    {
+      "nombre": "fabian",
+      "apellido": "ugalde",
+      "correo": "fabian@ulacit.com",
+      "contrasena": "fabian123",
+      "id": 3
+    },
+    {
+      "nombre": "Emanuel",
+      "apellido": "Rojas",
+      "correo": "emanuel@hotmail.com",
+      "contrasena": "123456789",
+      "id": 4
+    },
+    {
+      "nombre": "julio",
+      "apellido": "gamboa",
+      "correo": "julio@ulacit.com",
+      "contrasena": "julio123",
+      "id": 5
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

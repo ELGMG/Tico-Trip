@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -18,6 +19,7 @@ import { RouterModule } from '@angular/router';
 import { NotFoundError } from 'rxjs';
 import { HeaderComponent } from './header/header.component';
 import { Header2Component } from './header2/header2.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -44,7 +46,12 @@ import { Header2Component } from './header2/header2.component';
   imports: [
     BrowserModule, 
     AppRoutingModule,
-    RouterModule.forRoot([])
+    RouterModule.forRoot([]),
+
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule
+
 
 
   ],
