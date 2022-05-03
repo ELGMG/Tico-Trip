@@ -1,0 +1,19 @@
+'use strict'
+
+var mongoose = require('mongoose');
+var Schema = mongoose.Schema;
+
+
+var ProyectoSchema = Schema({
+    
+    nombre: String,
+    descripcion: String,
+    precio: String,
+    ubicacion: String,
+    contactos:String,
+    imagen:String
+
+});
+
+
+module.exports = mongoose.model('Info_lugar', ProyectoSchema);

@@ -39,29 +39,29 @@
         <img [src]="myimage" style="width: 150%;" />
 
 
-        <a href="#" ><i style="top: 240px; left: 80px;" class="material-icons">beach_access</i></a>
+        <a  (click)="seleccionarDato1('62706c1464d996a5e9178a9c') " ><i style="top: 240px; left: 80px;" class="material-icons">beach_access</i></a>
 
-        <a href="#"><img class="posicion" src="../../assets/images/canopy.png" width="45px"
+        <a (click)="seleccionarDato1('626caa3d98620e391b20029d') "><img class="posicion" src="../../assets/images/canopy.png" width="45px"
             style="filter: invert(); position: absolute; top: 300px; "></a>
 
       </div>
 
 
 
-
-
-
-      <div style="float: right; margin-right: 110px; margin-top:40px; ">
-
+      <div style="float: right; margin-right: 110px; margin-top:100px; ">
         <div class="carta" style="width: 18rem;">
-          <img class="card-img-top" src="../../assets/images/guanacaste.png" alt="Card image cap">
-          <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
+         <p id="cambiar" style="width: 100px;" > </p>
+          <div class="card-body" style="color: aliceblue;">             
+            <label style="background-color: rgb(115, 115, 115); color: aliceblue; position: absolute; font-size: large; width: 330px; right:49px;">Informacion del lugar :</label>
+            <table style="height: 150px;" >
+              <th id="cuadro" style="padding-right:20px ;" > </th>
+              <td  id="resultado" style="text-align: left; " > </td>
+              </table>
           </div>
         </div>
+      </div>     
 
-      </div>
+ 
     </div>
 
   </div>
