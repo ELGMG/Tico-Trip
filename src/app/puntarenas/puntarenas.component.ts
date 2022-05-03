@@ -42,18 +42,28 @@ export class PuntarenasComponent implements OnInit {
 
 
   imagen(dato : string){
-    if (dato == "62706c1464d996a5e9178a9c") {
+    if (dato == "6270c66d8b056a960d7cf4cd") {
     let x=document.getElementById('cambiar');
-    x!.innerHTML = "<img src='../../assets/images/limon.png'   >";
+    x!.innerHTML = "<img  style='width: 400px;' src='../../assets/lugares/puntarenasjaco.png  '   >";
   
-    } else  if (dato == "626caac83f28320622b67e69") {
+    } else  if (dato == "6270c6758b056a960d7cf4ce") {
       let x=document.getElementById('cambiar');
-      x!.innerHTML = "<img src='../../assets/images/heredia.png '  >";
+      x!.innerHTML = "<img  style='width: 350px;  ' src='../../assets/lugares/puntarenasparquenacional.png '  >";
+    }
+
+    else  if (dato == "6270c6838b056a960d7cf4cf") {
+      let x=document.getElementById('cambiar');
+      x!.innerHTML = "<img  style='width: 350px;  ' src='../../assets/lugares/puntarenasmonteverde.png '  >";
+    }
+
+    else  if (dato == "626caac83f28320622b67e69") {
+      let x=document.getElementById('cambiar');
+      x!.innerHTML = "<img  style='width: 350px;  ' src='../../assets/lugares/puntarenasriolajas.png '  >";
     }
   
    }
    
-
+  
  
  
 

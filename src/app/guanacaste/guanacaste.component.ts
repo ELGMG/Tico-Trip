@@ -56,11 +56,19 @@ export class GuanacasteComponent implements OnInit {
  imagen(dato : string){
   if (dato == "626caa3d98620e391b20029d") {
   let x=document.getElementById('cambiar');
-  x!.innerHTML = "<img src='../../assets/images/limon.png'   >";
+  x!.innerHTML = "<img  style='width: 400px;' src='../../assets/lugares/guanacastethecongo.png'   >";
 
-  } else  if (dato == "626caac83f28320622b67e69") {
+  } else  if (dato == "6270c5608b056a960d7cf4c4") {
     let x=document.getElementById('cambiar');
-    x!.innerHTML = "<img src='../../assets/images/gua.jpg '  >";
+    x!.innerHTML = "<img  style='width: 350px;  ' src='../../assets/lugares/guanacasteriobebedero.png'  >";
+  }
+  else  if (dato == "6270c5ad8b056a960d7cf4c9") {
+    let x=document.getElementById('cambiar');
+    x!.innerHTML = "<img  style='width: 350px;  ' src='../../assets/lugares/guanacasteconchal.png '  >";
+  }
+  else  if (dato == "6270c5c48b056a960d7cf4ca") {
+    let x=document.getElementById('cambiar');
+    x!.innerHTML = "<img  style='width: 350px;  ' src='../../assets/lugares/guanacastevolcanmiravalles.png '  >";
   }
 
  }

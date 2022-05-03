@@ -39,18 +39,29 @@ export class AlajuelaComponent implements OnInit {
     })
   }
 
-
   imagen(dato : string){
-    if (dato == "62706c1464d996a5e9178a9c") {
+    if (dato == "6270c7328b056a960d7cf4d9") {
     let x=document.getElementById('cambiar');
-    x!.innerHTML = "<img src='../../assets/images/limon.png'   >";
+    x!.innerHTML = "<img  style='width: 400px;' src='../../assets/lugares/alajuelacataratalafortuna.png'   >";
   
-    } else  if (dato == "626caac83f28320622b67e69") {
+    } else  if (dato == "6270c7398b056a960d7cf4da") {
       let x=document.getElementById('cambiar');
-      x!.innerHTML = "<img src='../../assets/images/heredia.png '  >";
+      x!.innerHTML = "<img  style='width: 350px;  ' src='../../assets/lugares/alajuelariotabacon.png '  >";
     }
+    else  if (dato == "6270c7f18b056a960d7cf4db") {
+      let x=document.getElementById('cambiar');
+      x!.innerHTML = "<img  style='width: 350px;  ' src='../../assets/lugares/alajuelaSenderolostucanes.png '  >";
+    }
+    else  if (dato == "6270c7f88b056a960d7cf4dc") {
+      let x=document.getElementById('cambiar');
+      x!.innerHTML = "<img  style='width: 350px;  ' src='../../assets/lugares/alajuelavolcanarenal.png '  >";
+    }
+
+    
   
    }
+   
+  
    
 
 

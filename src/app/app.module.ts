@@ -19,13 +19,10 @@ import { RouterModule } from '@angular/router';
 import { NotFoundError } from 'rxjs';
 import { HeaderComponent } from './header/header.component';
 import { Header2Component } from './header2/header2.component';
-<<<<<<< HEAD
+ 
 import { HttpClientModule } from '@angular/common/http';
 
-=======
-import { HttpClientModule } from '@angular/common/http'
->>>>>>> d4afbbff0e5055f82fd41b6c34e569105622bce4
-
+ 
 @NgModule({
   declarations: [
     AppComponent,
@@ -50,18 +47,14 @@ import { HttpClientModule } from '@angular/common/http'
   imports: [
     BrowserModule, 
     AppRoutingModule,
-<<<<<<< HEAD
+ 
     RouterModule.forRoot([]),
 
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule
 
-=======
-    HttpClientModule,
-    RouterModule.forRoot([])
->>>>>>> d4afbbff0e5055f82fd41b6c34e569105622bce4
-
+ 
 
   ],
   providers: [],

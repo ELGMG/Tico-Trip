@@ -40,19 +40,29 @@ export class CartagoComponent implements OnInit {
     })
   }
 
-
   imagen(dato : string){
-    if (dato == "62706c1464d996a5e9178a9c") {
+    if (dato == "6270c8328b056a960d7cf4e1") {
     let x=document.getElementById('cambiar');
-    x!.innerHTML = "<img src='../../assets/images/limon.png'   >";
+    x!.innerHTML = "<img  style='width: 400px;' src='../../assets/images/gua.jpg'   >";
   
-    } else  if (dato == "626caac83f28320622b67e69") {
+    } else  if (dato == "6270c83a8b056a960d7cf4e2") {
       let x=document.getElementById('cambiar');
-      x!.innerHTML = "<img src='../../assets/images/heredia.png '  >";
+      x!.innerHTML = "<img  style='width: 350px;  ' src='../../assets/images/fondoHeredia.jpg '  >";
     }
+ else  if (dato == "6270c8408b056a960d7cf4e3") {
+    let x=document.getElementById('cambiar');
+    x!.innerHTML = "<img  style='width: 350px;  ' src='../../assets/images/fondoHeredia.jpg '  >";
+  }
   
+
+  else  if (dato == "6270c8478b056a960d7cf4e4") {
+    let x=document.getElementById('cambiar');
+    x!.innerHTML = "<img  style='width: 350px;  ' src='../../assets/images/fondoHeredia.jpg '  >";
+  }
+
    }
    
+  
 
  
 

@@ -41,16 +41,29 @@ export class LimonComponent implements OnInit {
 
 
   imagen(dato : string){
-    if (dato == "62706c1464d996a5e9178a9c") {
+    if (dato == "6270c6b38b056a960d7cf4d1") {
     let x=document.getElementById('cambiar');
-    x!.innerHTML = "<img src='../../assets/images/limon.png'   >";
+    x!.innerHTML = "<img  style='width: 400px;' src='../../assets/lugares/limonplayapuntauva.png'   >";
   
-    } else  if (dato == "626caac83f28320622b67e69") {
+    } else  if (dato == "6270c6c58b056a960d7cf4d2") {
       let x=document.getElementById('cambiar');
-      x!.innerHTML = "<img src='../../assets/images/heredia.png '  >";
+      x!.innerHTML = "<img  style='width: 350px;  ' src='../../assets/lugares/limoncahuita.png '  >";
+    }
+
+    else  if (dato == "6270c6cc8b056a960d7cf4d3") {
+      let x=document.getElementById('cambiar');
+      x!.innerHTML = "<img  style='width: 350px;  ' src='../../assets/lugares/limonbobocara.png '  >";
     }
   
+    else  if (dato == "6270c6d68b056a960d7cf4d4") {
+      let x=document.getElementById('cambiar');
+      x!.innerHTML = "<img  style='width: 350px;  ' src='../../assets/lugares/limonrioreventazon.png '  >";
+    }
+  
+  
    }
+   
+  
    
 
  

@@ -40,19 +40,27 @@ export class HerediaComponent implements OnInit {
     })
   }
 
-
   imagen(dato : string){
-    if (dato == "62706c1464d996a5e9178a9c") {
+    if (dato == "6270d3178b056a960d7cf4e5") {
     let x=document.getElementById('cambiar');
-    x!.innerHTML = "<img src='../../assets/images/limon.png'   >";
+    x!.innerHTML = "<img  style='width: 400px;' src='../../assets/lugares/herediamiradorsanjose.png'   >";
   
-    } else  if (dato == "626caac83f28320622b67e69") {
+    } else  if (dato == "6270d3328b056a960d7cf4e6") {
       let x=document.getElementById('cambiar');
-      x!.innerHTML = "<img src='../../assets/images/heredia.png '  >";
+      x!.innerHTML = "<img  style='width: 350px;  ' src='../../assets/lugares/herediacerroguarari.png '  >";
+    }
+    else  if (dato == "6270d3518b056a960d7cf4e8") {
+      let x=document.getElementById('cambiar');
+      x!.innerHTML = "<img  style='width: 350px;  ' src='../../assets/lugares/herediamuseocultura.png '  >";
+    }
+    else  if (dato == "6270d35d8b056a960d7cf4e9") {
+      let x=document.getElementById('cambiar');
+      x!.innerHTML = "<img  style='width: 350px;  ' src='../../assets/lugares/herediariopozoazul.png '  >";
     }
   
    }
    
+  
 
 
 getClimaData(){

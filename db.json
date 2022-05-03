@@ -34,6 +34,20 @@
       "correo": "julio@ulacit.com",
       "contrasena": "julio123",
       "id": 5
+    },
+    {
+      "nombre": "aaaa",
+      "apellido": "aaaa",
+      "correo": "aaa@gmail.com",
+      "contrasena": "123",
+      "id": 6
+    },
+    {
+      "nombre": "Ejemplo nombre",
+      "apellido": "Apellido ejemplo",
+      "correo": "ejemplocorreo@gmail.com",
+      "contrasena": "12345",
+      "id": 7
     }
   ],
   "profile": {
