@@ -11,15 +11,15 @@
                 </div>
                 
                 <form>
-                    <form>
+                    <form [formGroup]="loginForm" (ngSubmit)="login()">
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Correo</label>
-                            <input type="email" class="form-control" id="correo">
+                            <input formControllName="correo" type="email" class="form-control" id="correo">
                          
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                            <input type="password" class="form-control" id="contrasena">
+                            <input formControllName="contrasena" type="password" class="form-control" id="contrasena">
                         </div>
                         <button routerLink="/HomeLink" type="submit" class="btn btn-primary mb-2" >Login</button>
                     </form>
