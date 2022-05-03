@@ -24,11 +24,9 @@
 
     <div class="centrado">
       <h3 style="color: antiquewhite;">Actividades </h3>
-      <table class="container"
-        style="width: 500px;  border: solid 5px; border-style: ridge; background-color:rgba(46, 151, 51, 0.616); color: antiquewhite; text-align: center; ">
+      <table class="container" style="width: 500px;  border: solid 5px; border-style: ridge; background-color:rgba(115, 115, 115, 0.6); color: antiquewhite; text-align: center; ">
 
-        <td style="width: 100px; padding: 20px;">Playas<i class="material-icons">beach_access</i></td>
-        <td>Canopy <img class="boton" src="../../assets/images/canopy.png" width="50px" style="filter: invert(); "></td>
+        <td>Cataratas <img class="boton" src="../../assets/images/cata-removebg-preview.png" width="50px" style="filter: invert(); "></td>
         <td>Senderismo <img class="boton" src="../../assets/images/hiking.jpg" width="40px" style="filter: invert(); ">
         </td>
         <td>Rios <img class="boton" src="../../assets/images/rios.png" width="60px" style="filter: invert(); "></td>
@@ -39,29 +37,35 @@
         <img [src]="myimage" style="width: 150%;" />
 
 
-        <a href="#" ><i style="top: 240px; left: 80px;" class="material-icons">beach_access</i></a>
+        <a href="#" ><img class="boton" src="../../assets/images/rios.png" width="60px"
+          style="filter: invert(); position: absolute; top: 300px; left: 250px; "></a>
 
-        <a href="#"><img class="posicion" src="../../assets/images/canopy.png" width="45px"
-            style="filter: invert(); position: absolute; top: 300px; "></a>
+        <a href="#"><img class="boton" src="../../assets/images/cata-removebg-preview.png" width="80px"
+            style="filter: invert(); position: absolute; top: 390px; left: 310px; "></a>
+
+        <a href="#"><img class="boton" src="../../assets/images/hiking.jpg" width="45px"
+            style="filter: invert(); position: absolute; top: 340px; left: 310px; "></a>
+          
+        <a href="#"><img class="boton" src="../../assets/images/hiking.jpg" width="45px"
+            style="filter: invert(); position: absolute; top: 300px; left: 300px; "></a>
 
       </div>
 
-
-
-
-
-
-      <div style="float: right; margin-right: 110px; margin-top:40px; ">
-
-        <div class="carta" style="width: 18rem;">
-          <img class="card-img-top" src="../../assets/images/guanacaste.png" alt="Card image cap">
-          <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
+      <div style="float: right; margin-right: 110px; margin-top:100px; ">
+        <div class="carta" style="width: 25rem;">
+          <p id="cambiar" style="width: 100px;"> </p>
+          <div class="card-body" style="color: aliceblue;">
+            <label
+              style="background-color: rgb(115, 115, 115); color: aliceblue; position: absolute; font-size: large; width: 330px; right: 135px;">Informacion
+              del lugar :</label>
+            <table style="height: 150px;">
+              <th id="cuadro" style="padding-right:20px ;"> </th>
+              <td id="resultado" style="text-align: left; "> </td>
+            </table>
           </div>
         </div>
-
       </div>
+
     </div>
 
   </div>
